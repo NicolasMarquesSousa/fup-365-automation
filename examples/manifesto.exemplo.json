@@ -1,0 +1,9 @@
+[
+  {
+    "fornecedor": "Fornecedor Exemplo A",
+    "para": "compras@fornecedor-exemplo.test",
+    "assunto": "Follow-up de pedidos pendentes — exemplo",
+    "anexo": "pedidos_exemplo.csv",
+    "pedidos": [["Componente demonstrativo", 12, "PO-0001", "2026-01-15", "Fornecedor Exemplo A", 12, "100.00", "1200.00"]]
+  }
+]
