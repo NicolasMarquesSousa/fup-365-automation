@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.xlsx
+*.xls
+auditoria*.csv
+manifest.json
+!examples/*.csv
+!examples/*.json
