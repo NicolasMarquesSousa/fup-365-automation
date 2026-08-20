@@ -1,3 +1,5 @@
+![Capa Automação FUP 365](social-preview.jpg)
+
 # Automação de Follow-up 365
 
 Projeto de portfólio em Python para transformar uma lista de pedidos pendentes em rascunhos personalizados no Microsoft Outlook. Cada fornecedor recebe apenas seus próprios itens, com tabela HTML e anexo correspondente.
