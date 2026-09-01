@@ -2,7 +2,13 @@
 
 # Automação de Follow-up 365
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+![Outlook](https://img.shields.io/badge/Outlook-Rascunhos-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)
+![Segurança](https://img.shields.io/badge/Envio-Apenas_manual-22C55E?style=flat-square)
+
 Projeto de portfólio em Python para transformar uma lista de pedidos pendentes em rascunhos personalizados no Microsoft Outlook. Cada fornecedor recebe apenas seus próprios itens, com tabela HTML e anexo correspondente.
+
+> **Papel no portfólio:** automação enxuta da etapa de comunicação. Para o fluxo completo de preparação e segmentação da base, veja o [Supplier FUP Automation](https://github.com/NicolasMarquesSousa/supplier-fup-automation).
 
 ## Destaques
 
@@ -40,3 +46,7 @@ Esta edição pública contém apenas dados fictícios. Bases operacionais, audi
 ## Tecnologias
 
 Python, JSON, HTML e automação COM do Microsoft Outlook (`pywin32`).
+
+---
+
+Desenvolvido por [Nicolas Marques](https://github.com/NicolasMarquesSousa) · [Ver portfólio](https://github.com/NicolasMarquesSousa)
