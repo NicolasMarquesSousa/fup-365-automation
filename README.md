@@ -5,10 +5,15 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Outlook](https://img.shields.io/badge/Outlook-Rascunhos-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)
 ![Segurança](https://img.shields.io/badge/Envio-Apenas_manual-22C55E?style=flat-square)
+![Testes](https://img.shields.io/badge/Testes-4_aprovados-22C55E?style=flat-square)
 
 Projeto de portfólio em Python para transformar uma lista de pedidos pendentes em rascunhos personalizados no Microsoft Outlook. Cada fornecedor recebe apenas seus próprios itens, com tabela HTML e anexo correspondente.
 
 > **Papel no portfólio:** automação enxuta da etapa de comunicação. Para o fluxo completo de preparação e segmentação da base, veja o [Supplier FUP Automation](https://github.com/NicolasMarquesSousa/supplier-fup-automation).
+
+## Demonstração
+
+![Fluxo animado da Automação de Follow-up 365](docs/demonstracao.gif)
 
 ## Destaques
 
@@ -17,6 +22,10 @@ Projeto de portfólio em Python para transformar uma lista de pedidos pendentes 
 - anexos individuais por fornecedor;
 - preservação da assinatura configurada no Outlook;
 - modo seguro: o script salva rascunhos e nunca envia mensagens automaticamente.
+
+## Resultado
+
+O projeto reduz o trabalho repetitivo de montar mensagens e anexos, mantém os dados de cada fornecedor isolados e preserva a revisão humana antes do envio.
 
 ## Estrutura
 
@@ -38,6 +47,16 @@ python src/criar_rascunhos_outlook.py --manifesto examples/manifesto.exemplo.jso
 ```
 
 Revise os rascunhos no Outlook antes de qualquer envio. Para usar dados próprios, copie o formato do manifesto de exemplo e mantenha arquivos reais fora do controle de versão.
+
+## Testes automatizados
+
+A suíte valida a montagem segura do HTML, a preservação da assinatura, a criação de rascunhos sem envio automático e o tratamento de anexos ausentes.
+
+```powershell
+python -m unittest discover -s tests -v
+```
+
+Resultado validado: **4 testes aprovados**.
 
 ## Privacidade
 
